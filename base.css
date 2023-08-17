@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;500;700 & display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid rgba(212, 207, 207, 0.555);
+}
+
+
+.nav li {
+    width: 70%;
+}
+
+.nav li {
+    margin: 0 0 0 15px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid rgba(14, 80, 223, 0.281);
+    
+    border-radius: 10px 5px;
+    
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    color: rgb(51, 49, 49);
+    font-size: 14px;
+}
+
+li,a {
+    text-align: center;
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+    margin-top: 4px;
+    border-bottom: 1px solid rgba(212, 207, 207, 0.555);
+}
+
+.header img {
+    width: 100%;
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+
+
+.cont-ende {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+}
+
+table, th, td {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+
+th, td {
+    border: 1px solid rgb(192, 190, 190);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #162dd81a;
+}
+
+
+
+#titulo, h2, h3{
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: -20px;
+}
+
+.btn-agende {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+.btn-agende label {
+    font-weight: bolder;
+}
+
+.btn-agende button {
+    border: 1px solid rgb(0, 0, 255);
+    padding: 5px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: rgb(75, 40, 231);
+    margin: 0 8px;
+    
+}
+
+button {
+    box-shadow: 3px 4px 5px -2px black
+}
+
+
+.btn-agende button:hover {
+    background-color: rgb(83, 83, 252);
+    color: white;
+    transition: 500ms ease-in;
+}
+
+
+.footer {
+    background-color: rgb(70, 69, 73);
+    min-height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+

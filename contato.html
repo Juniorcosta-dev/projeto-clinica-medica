@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="Sobre.html">Sobre a clínica</a></li>
+            <li><a href="horarios.html">Horários de atendimentos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <img
+            src="img/baner4.png"
+            alt="Banner com logo,com medico segurando um coração vermelho"
+          />
+        </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <h2>Contato</h2>
+
+          <ul>
+            <li>Telefone (00)0000-0000</li>
+            <li>WhatsApp (00)0000-0000</li>
+          </ul>
+          
+          <form class="form" method="post">
+            <fieldset>
+              <legend>Formulário</legend>
+            <div>
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu Email"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="assunto">Assunto</label>
+              <input type="text" name="assunto" id="assunto" />
+            </div>
+          </fieldset>
+            <div>
+              <label for="Digite seu texto">Digite seu texto</label><br />
+              <textarea
+                name="campo-de-texto"
+                id=""
+                cols="50"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar Formulário</button>
+            </div>
+            </fieldset>
+          </form>
+          <hr />
+          <h2>Endereço</h2>
+          <div class="cont-ende">
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14913.221422668868!2d-41.11571097993164!3d-20.85973895835422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1692232698519!5m2!1spt-BR!2sbr"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div>
+              <p>Rua Jeronimo Ribeiro,30<br />Cachoeiro de Itapemirim-ES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <div>
+            <h2>Contato</h2>
+            <p>Es-Cachoeiro de Itapemirim (00)0000-0000</p>
+            <p>WhatsApp (00)0000-0000</p>
+          </div>
+          <div>
+            <h2>Receba nossas notícias</h2>
+            <p>
+              Envie seu e-mail e manteremos você informado sobre dicas de saúde
+              e nossas promoções.
+            </p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu email"
+            />
+            <button type="submit">Enviar</button>
+
+            <p>&copy; Copyright 2023, JuniorDev (Projeto fictício)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
